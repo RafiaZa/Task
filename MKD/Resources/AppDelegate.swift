@@ -6,14 +6,19 @@
 //
 
 import UIKit
-
+import ApiCall
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let header = [
+            "Content-Type":"application/json",
+            "Accept" : "application/json",
+            "Accept-Language": "en",
+        ]
+        Request.shared.setupVariables(baseUrl: "https://vyod.manaknightdigital.com/", header: header)
         return true
     }
 

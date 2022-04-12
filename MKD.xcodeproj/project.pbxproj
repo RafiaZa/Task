@@ -13,6 +13,25 @@
 		CB2DA79D2805D44700842111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2DA79B2805D44700842111 /* Main.storyboard */; };
 		CB2DA79F2805D44900842111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2DA79E2805D44900842111 /* Assets.xcassets */; };
 		CB2DA7A22805D44900842111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2DA7A02805D44900842111 /* LaunchScreen.storyboard */; };
+		CB2DA7AE2805DB3500842111 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7AD2805DB3500842111 /* GetStartedViewController.swift */; };
+		CB2DA7B02805DBB200842111 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7AF2805DBB200842111 /* SplashViewController.swift */; };
+		CB2DA7B32805DDAE00842111 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7B22805DDAE00842111 /* LoginViewController.swift */; };
+		CB2DA7B52805E0BF00842111 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7B42805E0BF00842111 /* Extension.swift */; };
+		CB2DA7B72805E12B00842111 /* VerifyEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7B62805E12B00842111 /* VerifyEmailViewController.swift */; };
+		CB2DA7B92805E22A00842111 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2DA7B82805E22A00842111 /* Dashboard.storyboard */; };
+		CB2DA7BB2805E7D200842111 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7BA2805E7D200842111 /* SignupViewController.swift */; };
+		CB2DA7BD2805EF0600842111 /* OTPVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2DA7BC2805EF0600842111 /* OTPVerificationViewController.swift */; };
+		CBAF29862805F1B500508A9D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF29852805F1B500508A9D /* HomeViewController.swift */; };
+		CBAF298A2805F3F800508A9D /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF29882805F3F800508A9D /* HomeViewCell.swift */; };
+		CBAF298B2805F3F800508A9D /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBAF29892805F3F800508A9D /* HomeViewCell.xib */; };
+		CBAF298F2805F4AB00508A9D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF298E2805F4AB00508A9D /* HomeViewModel.swift */; };
+		CBAF29912805F84500508A9D /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF29902805F84500508A9D /* PasswordResetViewController.swift */; };
+		CBAF29942806035100508A9D /* ApiCall in Frameworks */ = {isa = PBXBuildFile; productRef = CBAF29932806035100508A9D /* ApiCall */; };
+		CBAF299628060FB200508A9D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299528060FB200508A9D /* Data.swift */; };
+		CBAF299828060FB900508A9D /* LoginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299728060FB900508A9D /* LoginClass.swift */; };
+		CBAF299A280612D200508A9D /* VCExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF2999280612D200508A9D /* VCExts.swift */; };
+		CBAF299C28061F4900508A9D /* VerifyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299B28061F4900508A9D /* VerifyAccount.swift */; };
+		CBAF299E2806264F00508A9D /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299D2806264F00508A9D /* Signup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +43,24 @@
 		CB2DA79E2805D44900842111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2DA7A12805D44900842111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2DA7A32805D44900842111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2DA7AD2805DB3500842111 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		CB2DA7AF2805DBB200842111 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CB2DA7B22805DDAE00842111 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CB2DA7B42805E0BF00842111 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CB2DA7B62805E12B00842111 /* VerifyEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyEmailViewController.swift; sourceTree = "<group>"; };
+		CB2DA7B82805E22A00842111 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		CB2DA7BA2805E7D200842111 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		CB2DA7BC2805EF0600842111 /* OTPVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewController.swift; sourceTree = "<group>"; };
+		CBAF29852805F1B500508A9D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CBAF29882805F3F800508A9D /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		CBAF29892805F3F800508A9D /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		CBAF298E2805F4AB00508A9D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CBAF29902805F84500508A9D /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		CBAF299528060FB200508A9D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		CBAF299728060FB900508A9D /* LoginClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginClass.swift; sourceTree = "<group>"; };
+		CBAF2999280612D200508A9D /* VCExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCExts.swift; sourceTree = "<group>"; };
+		CBAF299B28061F4900508A9D /* VerifyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyAccount.swift; sourceTree = "<group>"; };
+		CBAF299D2806264F00508A9D /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAF29942806035100508A9D /* ApiCall in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +94,89 @@
 		CB2DA7942805D44700842111 /* MKD */ = {
 			isa = PBXGroup;
 			children = (
-				CB2DA7952805D44700842111 /* AppDelegate.swift */,
-				CB2DA7972805D44700842111 /* SceneDelegate.swift */,
-				CB2DA7992805D44700842111 /* ViewController.swift */,
-				CB2DA79B2805D44700842111 /* Main.storyboard */,
+				CBAF298C2805F49300508A9D /* ViewModel */,
+				CBAF29872805F3DA00508A9D /* Generic */,
+				CB2DA7AC2805D5AB00842111 /* Resources */,
+				CB2DA7AB2805D58600842111 /* Model */,
+				CB2DA7AA2805D57C00842111 /* View */,
+				CB2DA7A92805D57000842111 /* ViewController */,
 				CB2DA79E2805D44900842111 /* Assets.xcassets */,
-				CB2DA7A02805D44900842111 /* LaunchScreen.storyboard */,
 				CB2DA7A32805D44900842111 /* Info.plist */,
 			);
 			path = MKD;
+			sourceTree = "<group>";
+		};
+		CB2DA7A92805D57000842111 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB2DA7992805D44700842111 /* ViewController.swift */,
+				CB2DA7AD2805DB3500842111 /* GetStartedViewController.swift */,
+				CB2DA7AF2805DBB200842111 /* SplashViewController.swift */,
+				CB2DA7B22805DDAE00842111 /* LoginViewController.swift */,
+				CB2DA7B62805E12B00842111 /* VerifyEmailViewController.swift */,
+				CB2DA7BA2805E7D200842111 /* SignupViewController.swift */,
+				CB2DA7BC2805EF0600842111 /* OTPVerificationViewController.swift */,
+				CBAF29852805F1B500508A9D /* HomeViewController.swift */,
+				CBAF29902805F84500508A9D /* PasswordResetViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB2DA7AA2805D57C00842111 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB2DA79B2805D44700842111 /* Main.storyboard */,
+				CB2DA7A02805D44900842111 /* LaunchScreen.storyboard */,
+				CB2DA7B82805E22A00842111 /* Dashboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB2DA7AB2805D58600842111 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBAF299B28061F4900508A9D /* VerifyAccount.swift */,
+				CBAF299728060FB900508A9D /* LoginClass.swift */,
+				CBAF299D2806264F00508A9D /* Signup.swift */,
+				CBAF299528060FB200508A9D /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB2DA7AC2805D5AB00842111 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB2DA7972805D44700842111 /* SceneDelegate.swift */,
+				CB2DA7952805D44700842111 /* AppDelegate.swift */,
+				CB2DA7B42805E0BF00842111 /* Extension.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBAF29872805F3DA00508A9D /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				CBAF2999280612D200508A9D /* VCExts.swift */,
+				CBAF29882805F3F800508A9D /* HomeViewCell.swift */,
+				CBAF29892805F3F800508A9D /* HomeViewCell.xib */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		CBAF298C2805F49300508A9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBAF298D2805F49D00508A9D /* HomeViewModel */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CBAF298D2805F49D00508A9D /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CBAF298E2805F4AB00508A9D /* HomeViewModel.swift */,
+			);
+			path = HomeViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +195,9 @@
 			dependencies = (
 			);
 			name = MKD;
+			packageProductDependencies = (
+				CBAF29932806035100508A9D /* ApiCall */,
+			);
 			productName = MKD;
 			productReference = CB2DA7922805D44700842111 /* MKD.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +226,9 @@
 				Base,
 			);
 			mainGroup = CB2DA7892805D44700842111;
+			packageReferences = (
+				CBAF29922806035100508A9D /* XCRemoteSwiftPackageReference "ApiCall" */,
+			);
 			productRefGroup = CB2DA7932805D44700842111 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +246,8 @@
 				CB2DA7A22805D44900842111 /* LaunchScreen.storyboard in Resources */,
 				CB2DA79F2805D44900842111 /* Assets.xcassets in Resources */,
 				CB2DA79D2805D44700842111 /* Main.storyboard in Resources */,
+				CBAF298B2805F3F800508A9D /* HomeViewCell.xib in Resources */,
+				CB2DA7B92805E22A00842111 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +258,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2DA7BB2805E7D200842111 /* SignupViewController.swift in Sources */,
+				CBAF299628060FB200508A9D /* Data.swift in Sources */,
+				CB2DA7BD2805EF0600842111 /* OTPVerificationViewController.swift in Sources */,
+				CB2DA7B32805DDAE00842111 /* LoginViewController.swift in Sources */,
 				CB2DA79A2805D44700842111 /* ViewController.swift in Sources */,
+				CBAF299A280612D200508A9D /* VCExts.swift in Sources */,
+				CB2DA7B52805E0BF00842111 /* Extension.swift in Sources */,
+				CBAF298A2805F3F800508A9D /* HomeViewCell.swift in Sources */,
+				CB2DA7B72805E12B00842111 /* VerifyEmailViewController.swift in Sources */,
 				CB2DA7962805D44700842111 /* AppDelegate.swift in Sources */,
+				CBAF298F2805F4AB00508A9D /* HomeViewModel.swift in Sources */,
+				CBAF299828060FB900508A9D /* LoginClass.swift in Sources */,
+				CBAF299C28061F4900508A9D /* VerifyAccount.swift in Sources */,
+				CBAF299E2806264F00508A9D /* Signup.swift in Sources */,
+				CBAF29912805F84500508A9D /* PasswordResetViewController.swift in Sources */,
+				CBAF29862805F1B500508A9D /* HomeViewController.swift in Sources */,
 				CB2DA7982805D44700842111 /* SceneDelegate.swift in Sources */,
+				CB2DA7AE2805DB3500842111 /* GetStartedViewController.swift in Sources */,
+				CB2DA7B02805DBB200842111 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +492,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CBAF29922806035100508A9D /* XCRemoteSwiftPackageReference "ApiCall" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zainanjum100/ApiCall";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBAF29932806035100508A9D /* ApiCall */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBAF29922806035100508A9D /* XCRemoteSwiftPackageReference "ApiCall" */;
+			productName = ApiCall;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB2DA78A2805D44700842111 /* Project object */;
 }
