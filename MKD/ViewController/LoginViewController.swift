@@ -24,19 +24,20 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         emailTextField.text = "rafiazaheer94@gmail.com"
         passwordTextField.text = "123456"
+        self.hideKeyboardWhenTappedAround()
     }
     
     func login() {
         startActivityIndicator()
         let params = ["email":emailTextField.text,"password": passwordTextField.text]
         
-        Request.shared.requestApi(LoginClass.self, method: .post, url: "member/api/login" , params: params as [String : Any]) { result in
+        Request.shared.requestApi(LoginClass.self, method: .post, url: "member/api/login" , params: params as [String : Any], isSnakeCase: false) { result in
             switch result {
             case .success(let login):
                 let vc = HomeViewController.instantiate(type: .dashboard) as! HomeViewController
                 self.navigationController?.pushViewController(vc, animated: true)
                 print("Login:",login)
-                UserDefaults.userToken = login.data?.access_token
+                UserDefaults.userToken = login.data?.access
             case .failure(let error):
                 self.showAlert(text: "\(error.localizedDescription)")
                 print("Error:",error)

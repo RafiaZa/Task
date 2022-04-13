@@ -27,11 +27,12 @@
 		CBAF298F2805F4AB00508A9D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF298E2805F4AB00508A9D /* HomeViewModel.swift */; };
 		CBAF29912805F84500508A9D /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF29902805F84500508A9D /* PasswordResetViewController.swift */; };
 		CBAF29942806035100508A9D /* ApiCall in Frameworks */ = {isa = PBXBuildFile; productRef = CBAF29932806035100508A9D /* ApiCall */; };
-		CBAF299628060FB200508A9D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299528060FB200508A9D /* Data.swift */; };
-		CBAF299828060FB900508A9D /* LoginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299728060FB900508A9D /* LoginClass.swift */; };
 		CBAF299A280612D200508A9D /* VCExts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF2999280612D200508A9D /* VCExts.swift */; };
 		CBAF299C28061F4900508A9D /* VerifyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299B28061F4900508A9D /* VerifyAccount.swift */; };
 		CBAF299E2806264F00508A9D /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF299D2806264F00508A9D /* Signup.swift */; };
+		CBAF29A12806D5EC00508A9D /* ZainSPM in Frameworks */ = {isa = PBXBuildFile; productRef = CBAF29A02806D5EC00508A9D /* ZainSPM */; };
+		CBAF29A32806DBA700508A9D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF29A22806DBA700508A9D /* UserData.swift */; };
+		CBAF29A52806DBB200508A9D /* LoginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAF29A42806DBB200508A9D /* LoginClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,11 +57,11 @@
 		CBAF29892805F3F800508A9D /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
 		CBAF298E2805F4AB00508A9D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CBAF29902805F84500508A9D /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
-		CBAF299528060FB200508A9D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		CBAF299728060FB900508A9D /* LoginClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginClass.swift; sourceTree = "<group>"; };
 		CBAF2999280612D200508A9D /* VCExts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCExts.swift; sourceTree = "<group>"; };
 		CBAF299B28061F4900508A9D /* VerifyAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyAccount.swift; sourceTree = "<group>"; };
 		CBAF299D2806264F00508A9D /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		CBAF29A22806DBA700508A9D /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CBAF29A42806DBB200508A9D /* LoginClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBAF29942806035100508A9D /* ApiCall in Frameworks */,
+				CBAF29A12806D5EC00508A9D /* ZainSPM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,9 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				CBAF299B28061F4900508A9D /* VerifyAccount.swift */,
-				CBAF299728060FB900508A9D /* LoginClass.swift */,
+				CBAF29A22806DBA700508A9D /* UserData.swift */,
+				CBAF29A42806DBB200508A9D /* LoginClass.swift */,
 				CBAF299D2806264F00508A9D /* Signup.swift */,
-				CBAF299528060FB200508A9D /* Data.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +199,7 @@
 			name = MKD;
 			packageProductDependencies = (
 				CBAF29932806035100508A9D /* ApiCall */,
+				CBAF29A02806D5EC00508A9D /* ZainSPM */,
 			);
 			productName = MKD;
 			productReference = CB2DA7922805D44700842111 /* MKD.app */;
@@ -228,6 +231,7 @@
 			mainGroup = CB2DA7892805D44700842111;
 			packageReferences = (
 				CBAF29922806035100508A9D /* XCRemoteSwiftPackageReference "ApiCall" */,
+				CBAF299F2806D5EC00508A9D /* XCRemoteSwiftPackageReference "ZainSPM" */,
 			);
 			productRefGroup = CB2DA7932805D44700842111 /* Products */;
 			projectDirPath = "";
@@ -259,17 +263,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2DA7BB2805E7D200842111 /* SignupViewController.swift in Sources */,
-				CBAF299628060FB200508A9D /* Data.swift in Sources */,
 				CB2DA7BD2805EF0600842111 /* OTPVerificationViewController.swift in Sources */,
 				CB2DA7B32805DDAE00842111 /* LoginViewController.swift in Sources */,
 				CB2DA79A2805D44700842111 /* ViewController.swift in Sources */,
 				CBAF299A280612D200508A9D /* VCExts.swift in Sources */,
+				CBAF29A52806DBB200508A9D /* LoginClass.swift in Sources */,
 				CB2DA7B52805E0BF00842111 /* Extension.swift in Sources */,
 				CBAF298A2805F3F800508A9D /* HomeViewCell.swift in Sources */,
+				CBAF29A32806DBA700508A9D /* UserData.swift in Sources */,
 				CB2DA7B72805E12B00842111 /* VerifyEmailViewController.swift in Sources */,
 				CB2DA7962805D44700842111 /* AppDelegate.swift in Sources */,
 				CBAF298F2805F4AB00508A9D /* HomeViewModel.swift in Sources */,
-				CBAF299828060FB900508A9D /* LoginClass.swift in Sources */,
 				CBAF299C28061F4900508A9D /* VerifyAccount.swift in Sources */,
 				CBAF299E2806264F00508A9D /* Signup.swift in Sources */,
 				CBAF29912805F84500508A9D /* PasswordResetViewController.swift in Sources */,
@@ -502,6 +506,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		CBAF299F2806D5EC00508A9D /* XCRemoteSwiftPackageReference "ZainSPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/zainanjum100/ZainSPM";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -509,6 +521,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CBAF29922806035100508A9D /* XCRemoteSwiftPackageReference "ApiCall" */;
 			productName = ApiCall;
+		};
+		CBAF29A02806D5EC00508A9D /* ZainSPM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBAF299F2806D5EC00508A9D /* XCRemoteSwiftPackageReference "ZainSPM" */;
+			productName = ZainSPM;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

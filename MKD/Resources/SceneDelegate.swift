@@ -50,3 +50,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+extension SceneDelegate {
+    static func getInstance() -> SceneDelegate {
+        return UIApplication.shared.connectedScenes.first?.delegate as! SceneDelegate
+    }
+}

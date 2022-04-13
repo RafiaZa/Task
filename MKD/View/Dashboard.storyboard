@@ -36,6 +36,14 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWC-bO-L9F">
+                                <rect key="frame" x="328" y="76" width="70" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <connections>
+                                    <action selector="Logout:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="J8r-hd-QlD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -45,8 +53,10 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="tK8-9b-uHg" secondAttribute="trailing" id="LLN-yl-Ydp"/>
                             <constraint firstItem="txd-oa-rvl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="100" id="Lia-oJ-EpA"/>
                             <constraint firstItem="tK8-9b-uHg" firstAttribute="top" secondItem="txd-oa-rvl" secondAttribute="bottom" constant="20" id="OxD-ik-1Jl"/>
+                            <constraint firstItem="pWC-bO-L9F" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="32" id="ZTD-OG-cv9"/>
                             <constraint firstItem="tK8-9b-uHg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="a9u-oW-FXP"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="txd-oa-rvl" secondAttribute="trailing" constant="100" id="blo-wZ-qHf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="pWC-bO-L9F" secondAttribute="trailing" constant="16" id="xpy-B5-a6B"/>
                         </constraints>
                     </view>
                     <connections>

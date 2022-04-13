@@ -19,9 +19,16 @@ class HomeViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
         self.collectionView.register(UINib(nibName: "HomeViewCell", bundle: nil), forCellWithReuseIdentifier: "HomeViewCell")
+        
+       // UserDefaults.userToken = nil
     }
     
-
+    @IBAction func Logout(_ sender: Any) {
+        UserDefaults.userToken = nil
+        let vc = GetStartedViewController.instantiate(type: .main) as! GetStartedViewController
+        SceneDelegate.getInstance().window?.rootViewController = vc
+    }
+    
 
 }
 //MARK: DataSource & Delegate Methods

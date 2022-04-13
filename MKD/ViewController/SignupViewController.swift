@@ -29,12 +29,20 @@ class SignupViewController: UIViewController {
         startActivityIndicator()
         let params = ["first_name":firstNameTextField.text,"last_name":lastNameTextField.text,"email":emailTextField.text,"password": passwordTextField.text,"code":codeTextField.text]
         
-        Request.shared.requestApi(Signup.self, method: .post, url: "member/api/register" , params: params as [String : Any]) { result in
+        Request.shared.requestApi(Signup.self, method: .post, url: "member/api/register" ,params: params as [String : Any], isSnakeCase: false) { result in
             switch result {
-            case .success(let Signup):
-                let vc = HomeViewController.instantiate(type: .dashboard) as! HomeViewController
-                self.navigationController?.pushViewController(vc, animated: true)
-                print("SignUP:",Signup)
+            case .success(let data):
+                print("Api Response on SIgnup:",data)
+                if let data = data.data {
+                    UserDefaults.userToken = data.access
+                    let vc = HomeViewController.instantiate(type: .dashboard) as! HomeViewController
+                    self.navigationController?.pushViewController(vc, animated: true)
+                } else if let error = data.error {
+                    self.showAlert(text: error.values.first ?? "Error!!!!" )
+                }else {
+                    self.showAlert(text: "Error while signingup")
+                }
+            
             case .failure(let error):
                 self.showAlert(text: "\(error.localizedDescription)")
                 print("Error:",error)

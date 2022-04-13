@@ -12,20 +12,36 @@ For support, please feel free to contact me at https://www.linkedin.com/in/syeda
 */
 
 import Foundation
-struct LoginClass : Codable {
-	let success : Bool?
-	let data : UserData?
+struct UserData : Codable {
+	let access : String?
+	let refresh_token : String?
+	let user_id : Int?
+	let email : String?
+	let image : String?
+	let first_name : String?
+	let last_name : String?
 
 	enum CodingKeys: String, CodingKey {
 
-		case success = "success"
-		case data = "data"
+		case access = "access_token"
+		case refresh_token = "refresh_token"
+		case user_id = "user_id"
+		case email = "email"
+		case image = "image"
+		case first_name = "first_name"
+		case last_name = "last_name"
 	}
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		success = try values.decodeIfPresent(Bool.self, forKey: .success)
-		data = try values.decodeIfPresent(UserData.self, forKey: .data)
+        
+        access = try values.decodeIfPresent(String.self, forKey: .access)
+		refresh_token = try values.decodeIfPresent(String.self, forKey: .refresh_token)
+		user_id = try values.decodeIfPresent(Int.self, forKey: .user_id)
+		email = try values.decodeIfPresent(String.self, forKey: .email)
+		image = try values.decodeIfPresent(String.self, forKey: .image)
+		first_name = try values.decodeIfPresent(String.self, forKey: .first_name)
+		last_name = try values.decodeIfPresent(String.self, forKey: .last_name)
 	}
 
 }
