@@ -26,7 +26,8 @@ class HomeViewController: UIViewController {
     @IBAction func Logout(_ sender: Any) {
         UserDefaults.userToken = nil
         let vc = GetStartedViewController.instantiate(type: .main) as! GetStartedViewController
-        SceneDelegate.getInstance().window?.rootViewController = vc
+        
+        SceneDelegate.getInstance().window?.rootViewController = UINavigationController(rootViewController: vc)
     }
     
 

@@ -35,7 +35,7 @@ class LoginViewController: UIViewController {
             switch result {
             case .success(let login):
                 let vc = HomeViewController.instantiate(type: .dashboard) as! HomeViewController
-                self.navigationController?.pushViewController(vc, animated: true)
+                SceneDelegate.getInstance().window?.rootViewController = vc
                 print("Login:",login)
                 UserDefaults.userToken = login.data?.access
             case .failure(let error):

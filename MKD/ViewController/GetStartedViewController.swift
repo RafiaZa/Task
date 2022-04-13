@@ -26,7 +26,7 @@ class GetStartedViewController: UIViewController {
         
         if let _ = UserDefaults.userToken {
             let vc = HomeViewController.instantiate(type: .dashboard) as! HomeViewController
-            navigationController?.pushViewController(vc, animated: true)
+            SceneDelegate.getInstance().window?.rootViewController = vc 
         }
         else {
         let vc = LoginViewController.instantiate(type: .main) as! LoginViewController
